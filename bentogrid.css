@@ -1,0 +1,24 @@
+html {
+  box-sizing: border-box;
+}
+*, *::before, *::after {
+  box-sizing: inherit;
+  padding: 0;
+  margin: 0;
+}
+
+ .grid-container{
+  display: grid;
+  /* place-content: center; */
+ } 
+
+.grid-1{
+  display: grid;
+  grid-template-columns: repeat(4, 25%) ;
+}
+
+.div2{
+  grid-column: 2 / span 2; 
+  /* place-self: center;  */
+  margin: auto;
+}
