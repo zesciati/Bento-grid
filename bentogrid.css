@@ -7,14 +7,27 @@ html {
   margin: 0;
 }
 
- .grid-container{
+:root{
+  --font-size: 18px;
+  --font-family: 
+}
+
+body{
+  
+}
+
+.grid-container{
   display: grid;
   /* place-content: center; */
- } 
+} 
 
 .grid-1{
   display: grid;
   grid-template-columns: repeat(4, 25%) ;
+}
+
+.div1{
+  
 }
 
 .div2{
