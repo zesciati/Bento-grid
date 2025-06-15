@@ -81,5 +81,19 @@ body{
 }
 
 .schedule-posts{
-background-color: #DDD1FC;  
+  background-color: #DDD1FC;  
+  padding: 5%;
+  grid-column-start:4;
+  grid-row-start: span 3; 
+  border-radius: var(--radius-bento-grid);
+  /* padding-left: 5%; */
+  padding-bottom: 25rem;
+}
+
+.schedule-posts h1, .schedule-posts h3{
+  padding-left: 5%;
+
+}
+.schedule-posts h1{
+  padding-top: 11%;
 }
