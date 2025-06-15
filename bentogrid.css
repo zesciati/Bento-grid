@@ -9,7 +9,8 @@ html {
 
 :root{
   --font-size: 18px;
-  --font-family: 
+  /* --font-family:; */
+  --radius-bento-grid:5px
 }
 
 body{
@@ -18,20 +19,44 @@ body{
 
 .grid-container{
   display: grid;
-  /* place-content: center; */
+  place-content: center;
+
 } 
 
-.grid-1{
+.grid-layout{
   display: grid;
   grid-template-columns: repeat(4, 25%) ;
-}
-
-.div1{
+  grid-template-rows: repeat(4, 25%) ;
+  margin-top: 5%;
   
 }
 
-.div2{
+.create-post{
+  padding-top: 40px;
+  padding-bottom: 300px;
+  grid-row: 1 / span 2;
+  background-color: #F9EEE2;
+  /* padding-right: 90px; */
+  padding-left: 20px;
+  border-radius: var(--radius-bento-grid);
+}
+
+.create-post h1{
+  padding-bottom: 30px;
+}
+
+.create-post img{
+
+}
+
+.five-stars{
   grid-column: 2 / span 2; 
   /* place-self: center;  */
   margin: auto;
+  background-color: #7651DD;
+
+}
+
+.schedule-posts{
+background-color: #DDD1FC;  
 }

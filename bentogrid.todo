@@ -1,7 +1,8 @@
 bentogrid:
   ✔ mencari file gambar @done(25-06-14 21:47)
-  ✔ layoutnya 4 column dan 3 row @done(25-06-14 23:22)
-  ☐ styling div1
+  ✔ layoutnya 4 column dan 4 row @done(25-06-14 23:22)
+  ✔ ubah nama kelas jadi lebih deskriptif @done(25-06-15 11:43)
+  ☐ styling create-post
   ☐ install font -> https://www.shecodes.io/athena/261829-how-to-import-more-fonts-to-use-in-vs-code-for-css-styling
 
 
