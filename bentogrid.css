@@ -31,15 +31,15 @@ body{
 
 .grid-layout{
   display: grid;
-  grid-template-columns: repeat(4, 25%) ;
+  grid-template-columns: repeat(4, 29%) ;
   grid-template-rows: repeat(4, 25%) ;
   margin-top: 5%;
-  gap: 5px;
+  gap: 10px;
 }
 
 .create-post{
   padding-top: 12%;
-  padding-bottom: 20rem;
+  padding-bottom: 25rem;
   grid-row: 1 / span 2;
   background-color: #F9EEE2;
   /* padding-right: 90px; */
@@ -58,9 +58,26 @@ body{
 .five-stars{
   grid-column: 2 / span 2; 
   /* place-self: center;  */
-  margin: auto;
+  /* margin: auto; */
   background-color: #7651DD;
-  padding: 15%;
+  padding: 5%;
+  padding-bottom: 53%;
+  border-radius: var(--radius-bento-grid);
+  /* padding-left: 20%;
+  padding-right: 10%; */
+  /* width: 160%; */
+  text-align: center;
+}
+
+.five-stars h1{
+  color: white;
+  /* font-size: var(--font-size); */
+  font-size: 3rem;
+  padding-bottom: 5%;
+}
+
+.five-stars h3{
+  color: white;
 }
 
 .schedule-posts{
