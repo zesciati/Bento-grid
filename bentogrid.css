@@ -34,18 +34,19 @@ body{
   display: grid;
   grid-template-columns: repeat(4, 29%) ;
   grid-template-rows: repeat(4, 25%) ;
-  margin-top: 5%;
-  gap: 10px;
+  margin: 5% 0;
+  gap: 13px;
 }
 
 .create-post{
   padding-top: 12%;
-  padding-bottom: 25rem;
+  /* padding-bottom: 5rem; */
   grid-row: 1 / span 2;
   background-color: #F9EEE2;
   /* padding-right: 90px; */
   padding-left: 20px;
   border-radius: var(--radius-bento-grid);
+  
 }
 
 .create-post h1{
@@ -88,7 +89,9 @@ body{
   grid-row-start: span 3; 
   border-radius: var(--radius-bento-grid);
   /* padding-left: 5%; */
-  padding-bottom: 25rem;
+  /* padding-bottom: 25rem; */
+  /* width: 25.3ch; */
+  width: 17.1rem;
 }
 
 .schedule-posts h1, .schedule-posts h3{
@@ -97,4 +100,28 @@ body{
 }
 .schedule-posts h1{
   padding-top: 11%;
+  padding-bottom: 5%;
+}
+
+.schedule-posts h3{
+  padding-top: 5%;
+}
+
+.ai-content{
+  grid-row: 3 / span 2;
+  background-color: #FFCD6A;
+  border-radius: var(--radius-bento-grid);
+  height: auto;
+  /* margin-top: 50%; */
+}
+
+.ai-content h1 ,.ai-content img{
+  padding-left: 12%;
+  padding-top: 10%;
+}
+
+.ai-content img{
+  /* margin-top: 3rem; */
+  position: relative;
+  top: 16%;
 }
