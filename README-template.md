@@ -13,6 +13,7 @@ This is a solution to the [Bento grid challenge on Frontend Mentor](https://www.
   - [My process](#my-process)
     - [Built with](#built-with)
     - [What I learned](#what-i-learned)
+    - [Reminder](#reminder)
     - [Continued development](#continued-development)
     - [Useful resources](#useful-resources)
   - [Author](#author)
@@ -63,6 +64,10 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 ```
 
 width dan height untuk tempat layout gambar. Kode object-fit:cover untuk ukuran gambar asli dan menempati width dan height yang tersedia. kode object-position untuk mengubah titik fokus(bisa digeser gambar yang terlihat)
+
+### Reminder
+
+1. create-post dan ai-content terpisah menggunakan margin bukan gap 
 
 ### Continued development
 

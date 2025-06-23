@@ -38,15 +38,16 @@ body{
   gap: 13px;
 }
 
+/* NOTE -  create-post utama */
 .create-post{
   padding-top: 12%;
-  /* padding-bottom: 5rem; */
-  grid-row: 1 / span 2;
+  padding-bottom: 24rem;
+  grid-row: 1 / 2;
   background-color: #F9EEE2;
   /* padding-right: 90px; */
   padding-left: 20px;
   border-radius: var(--radius-bento-grid);
-  
+  /* height: 26rem; */
 }
 
 .create-post h1{
@@ -58,12 +59,14 @@ body{
 }
 
 .five-stars{
-  grid-column: 2 / span 2; 
+  grid-column: 2 / span 2;
+  /* grid-row: 1 / span 2;  */
   /* place-self: center;  */
   /* margin: auto; */
   background-color: #7651DD;
   padding: 5%;
   padding-bottom: 53%;
+  /* height: 163%; */
   border-radius: var(--radius-bento-grid);
   /* padding-left: 20%;
   padding-right: 10%; */
@@ -89,9 +92,10 @@ body{
   grid-row-start: span 3; 
   border-radius: var(--radius-bento-grid);
   /* padding-left: 5%; */
-  /* padding-bottom: 25rem; */
+  /* padding-bottom: 0rem; */
   /* width: 25.3ch; */
   width: 17.1rem;
+  height: 45rem;
 }
 
 .schedule-posts h1, .schedule-posts h3{
@@ -104,24 +108,36 @@ body{
 }
 
 .schedule-posts h3{
-  padding-top: 5%;
+  /* padding-top: 5%; */
+  margin-top: 5%;
 }
-
+/* NOTE - ai-content utama */
 .ai-content{
-  grid-row: 3 / span 2;
+  margin-top: 32%;
+  grid-row: 2 / span 2;
   background-color: #FFCD6A;
   border-radius: var(--radius-bento-grid);
-  height: auto;
+  /* height: auto; */
   /* margin-top: 50%; */
+  height: 30rem;
 }
 
 .ai-content h1 ,.ai-content img{
   padding-left: 12%;
-  padding-top: 10%;
 }
 
+.ai-content h1{
+  padding-top: 10%;
+  /* margin-top: 10%; */
+}
 .ai-content img{
   /* margin-top: 3rem; */
   position: relative;
-  top: 16%;
+  top: 9%;
+}
+
+.multiple-platforms{
+  grid-row: 2 / 3;
+  grid-column: 2 /3 ;
+  margin-top: 20%;
 }
