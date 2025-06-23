@@ -13,6 +13,7 @@ This is a solution to the [Bento grid challenge on Frontend Mentor](https://www.
   - [My process](#my-process)
     - [Built with](#built-with)
     - [What I learned](#what-i-learned)
+    - [Question](#question)
     - [Reminder](#reminder)
     - [Continued development](#continued-development)
     - [Useful resources](#useful-resources)
@@ -65,6 +66,9 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 
 width dan height untuk tempat layout gambar. Kode object-fit:cover untuk ukuran gambar asli dan menempati width dan height yang tersedia. kode object-position untuk mengubah titik fokus(bisa digeser gambar yang terlihat)
 
+### Question
+
+1. Baguskah menggunakan margin-top pada konten kelas ai-content untuk serasi?
 ### Reminder
 
 1. create-post dan ai-content terpisah menggunakan margin bukan gap 
@@ -79,7 +83,7 @@ Use this section to outline areas that you want to continue focusing on in futur
 
 - [How to import more fonts to use in VS Code for CSS styling](https://www.shecodes.io/athena/261829-how-to-import-more-fonts-to-use-in-vs-code-for-css-styling) - Artikel ini memberikan solusi untuk menggunakan fonts terinstall.
 - [How to Center a Div Using CSS Grid](https://www.sitepoint.com/css-grid-center-element/) - Memberikan efek center untuk css grid.
-- [How To Scale and Crop Images with CSS object-fit](https://www.digitalocean.com/community/tutorials/css-cropping-images-object-fit#using-object-fit-scale-down)
+- [How To Scale and Crop Images with CSS object-fit](https://www.digitalocean.com/community/tutorials/css-cropping-images-object-fit#using-object-fit-scale-down) - Mengcrop image di css.
 
 **Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
 
