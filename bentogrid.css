@@ -47,14 +47,15 @@ body {
   grid-template-columns: repeat(4, 29%);
   grid-template-rows: repeat(4, 25%);
   margin: 5% 0;
-  gap: 13px;
+  gap: 23px;
 }
 
 .ai-content,
 .create-post,
 .five-stars,
 .multiple-platforms,
-.schedule-posts {
+.schedule-posts,
+.consistent-schedule {
   border-radius: var(--radius-bento-grid);
 }
 
@@ -81,7 +82,7 @@ body {
   /* margin: auto; */
   background-color: #7651DD;
   padding: 5%;
-  padding-bottom: 53%;
+  /* padding-bottom: 53%; */
   /* height: 163%; */
   /* padding-left: 20%;
   padding-right: 10%; */
@@ -104,12 +105,12 @@ body {
   background-color: #DDD1FC;
   padding: 5%;
   grid-column-start: 4;
-  grid-row-start: span 3;
+  grid-row-start: span 2;
   /* padding-left: 5%; */
   /* padding-bottom: 0rem; */
   /* width: 25.3ch; */
   width: 17.1rem;
-  height: 45rem;
+  /* height: 45rem; */
 }
 
 .schedule-posts h1,
@@ -158,19 +159,27 @@ body {
   grid-column: 2 /3;
   /* margin-top: 10%; */
   background-color: white;
-  height: 90%;
+  /* min-height: 90%; */
 }
 
-.multiple-platforms h1, .multiple-platforms img{
-  padding-left: 12%;
-}
+/* .multiple-platforms h1, .multiple-platforms img{
+  
+}  */
+
 .multiple-platforms img{
+
   position: relative;
   top: 10%;
   left: 12%;
 }
 
-.multiple-platforms h1{
-  margin-top: 2.5rem;
+.multiple-platforms h1 {
+  margin-top: 3rem;
+  padding-left: 12%;
+}
 
+.consistent-schedule{
+  grid-row: 2 / 3;
+  grid-column: 3 / 4;
+  background-color: #FFCD6A;
 }
