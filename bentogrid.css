@@ -44,7 +44,7 @@ body {
 
 .grid-layout {
   display: grid;
-  grid-template-columns: repeat(4, 29%);
+  grid-template-columns: repeat(4, 25%);
   grid-template-rows: repeat(4, 25%);
   margin: 5% 0;
   gap: 23px;
@@ -55,13 +55,14 @@ body {
 .five-stars,
 .multiple-platforms,
 .schedule-posts,
-.consistent-schedule {
+.consistent-schedule,
+.grow-followers {
   border-radius: var(--radius-bento-grid);
 }
 
 .create-post {
   padding-top: 12%;
-  padding-bottom: 24rem;
+  padding-bottom: 26rem;
   grid-row: 1 / 2;
   background-color: #F9EEE2;
   /* padding-right: 90px; */
@@ -109,7 +110,7 @@ body {
   /* padding-left: 5%; */
   /* padding-bottom: 0rem; */
   /* width: 25.3ch; */
-  width: 17.1rem;
+  /* width: 17.1rem; */
   /* height: 45rem; */
 }
 
@@ -130,7 +131,7 @@ body {
 }
 
 .ai-content {
-  margin-top: 22%;
+  margin-top: 24%;
   grid-row: 2 / span 2;
   background-color: #FFCD6A;
   /* height: auto; */
@@ -215,4 +216,14 @@ body {
 }
 .audience-growth p{
   font-size: 1.3rem;
+}
+.grow-followers{
+  grid-row: 3/4;
+  grid-column: 3/ span 2;
+  background-color: #7651DD ;
+  /* width: 87%; */
+}
+.grow-followers img{
+  margin-top: 2.5rem ;
+  margin-left: 2.2rem;
 }
