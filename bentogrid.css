@@ -130,12 +130,12 @@ body {
 }
 
 .ai-content {
-  margin-top: 32%;
+  margin-top: 22%;
   grid-row: 2 / span 2;
   background-color: #FFCD6A;
   /* height: auto; */
   /* margin-top: 50%; */
-  height: 30rem;
+  /* height: 30rem; */
 }
 
 .ai-content h1,
@@ -182,4 +182,37 @@ body {
   grid-row: 2 / 3;
   grid-column: 3 / 4;
   background-color: #FFCD6A;
+}
+.consistent-schedule h1, .consistent-schedule img{
+  padding-left: 12%;
+  
+} 
+.consistent-schedule h1{
+  margin-top: 10%;
+}
+.consistent-schedule img{
+  margin-top: 10%;
+}
+
+.audience-growth{
+  grid-row: 3 /4;
+  grid-column: 2 / 3;
+  background-color: white;
+  
+  /* place-items: center;
+  place-content: center; */
+}
+.audience-growth h1, .audience-growth p, .audience-growth img{
+  padding-left: 12%;
+}
+.audience-growth p, .audience-growth img{
+  margin-top: 2rem;
+}
+.audience-growth h1{
+  font-size: 4.5rem;
+  margin-top: 2rem;
+
+}
+.audience-growth p{
+  font-size: 1.3rem;
 }
