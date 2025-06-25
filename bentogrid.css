@@ -222,8 +222,19 @@ body {
   grid-column: 3/ span 2;
   background-color: #7651DD ;
   /* width: 87%; */
+  display: grid;
+  grid-template-columns: repeat(2, 50%);
+  gap: 1rem;
+
 }
 .grow-followers img{
   margin-top: 2.5rem ;
   margin-left: 2.2rem;
+  
+}
+.grow-followers h1{
+  grid-column: 2/3;
+  place-content: center;
+  color: white;
+  font-size: 2.9rem
 }
