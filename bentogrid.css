@@ -45,7 +45,7 @@ body {
 .grid-layout {
   display: grid;
   grid-template-columns: repeat(4, 25%);
-  grid-template-rows: repeat(4, 25%);
+  grid-template-rows: repeat(3, 25%);
   margin: 5% 0;
   gap: 23px;
 }
@@ -71,10 +71,13 @@ body {
 }
 
 .create-post h1 {
-  padding-bottom: 20%;
+  padding-bottom: 10%;
+  font-size: 2.6rem;
 }
 
-.create-post img {}
+.create-post img, .create-post h1 {
+  padding-left: 12%;
+}
 
 .five-stars {
   grid-column: 2 / span 2;
@@ -94,12 +97,13 @@ body {
 .five-stars h1 {
   color: white;
   /* font-size: var(--font-size); */
-  font-size: 3rem;
-  padding-bottom: 5%;
+  font-size: 4rem;
+  padding-bottom: 4%;
 }
 
 .five-stars h3 {
   color: white;
+  font-size: 1.6rem;
 }
 
 .schedule-posts {
@@ -147,6 +151,7 @@ body {
 .ai-content h1 {
   padding-top: 10%;
   /* margin-top: 10%; */
+  font-size:3rem ;
 }
 
 .ai-content img {
@@ -190,9 +195,11 @@ body {
 } 
 .consistent-schedule h1{
   margin-top: 10%;
+  font-size: 2.5rem;
+  line-height: 3rem;
 }
 .consistent-schedule img{
-  margin-top: 10%;
+  margin-top: 3.8rem;
 }
 
 .audience-growth{
