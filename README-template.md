@@ -72,6 +72,24 @@ font-size: 4.5rem;
 
 Berdasarkan saran kevin powell font size menggunakan rem
 
+```css
+grid-template-areas:
+      "box-1"
+      "box-2"
+      "box-3"
+      "box-4"
+      "box-5"
+      "box-6"
+      "box-7"
+      "box-8";
+
+.five-stars{
+  grid-area: box-1;
+  }
+```
+
+grid-templates-areas yang memang bagus untuk bento grid 
+
 ### Question
 
 1. Baguskah menggunakan margin-top pada konten kelas ai-content untuk serasi?
@@ -91,7 +109,8 @@ Use this section to outline areas that you want to continue focusing on in futur
 - [How to import more fonts to use in VS Code for CSS styling](https://www.shecodes.io/athena/261829-how-to-import-more-fonts-to-use-in-vs-code-for-css-styling) - Artikel ini memberikan solusi untuk menggunakan fonts terinstall.
 - [How to Center a Div Using CSS Grid](https://www.sitepoint.com/css-grid-center-element/) - Memberikan efek center untuk css grid.
 - [How To Scale and Crop Images with CSS object-fit](https://www.digitalocean.com/community/tutorials/css-cropping-images-object-fit#using-object-fit-scale-down) - Mengcrop image di css.
-- [Are you using the right CSS units?](https://youtu.be/N5wpD9Ov_To) - mempelajarin kapan penggunaan css unit
+- [Are you using the right CSS units?](https://youtu.be/N5wpD9Ov_To) - mempelajarin kapan penggunaan css unit.
+- [Learn GRID-AREA to Build Amazing BENTO GRIDS](https://youtu.be/v0o1kV-qfVI?si=NGrXPMMc4PEoqBLv) - untuk ukuran media kueri tertentu sangat bagus
 
 **Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
 
