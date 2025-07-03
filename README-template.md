@@ -110,7 +110,7 @@ Use this section to outline areas that you want to continue focusing on in futur
 - [How to Center a Div Using CSS Grid](https://www.sitepoint.com/css-grid-center-element/) - Memberikan efek center untuk css grid.
 - [How To Scale and Crop Images with CSS object-fit](https://www.digitalocean.com/community/tutorials/css-cropping-images-object-fit#using-object-fit-scale-down) - Mengcrop image di css.
 - [Are you using the right CSS units?](https://youtu.be/N5wpD9Ov_To) - mempelajarin kapan penggunaan css unit.
-- [Learn GRID-AREA to Build Amazing BENTO GRIDS](https://youtu.be/v0o1kV-qfVI?si=NGrXPMMc4PEoqBLv) - untuk ukuran media kueri tertentu sangat bagus
+- [Learn GRID-AREA to Build Amazing BENTO GRIDS](https://youtu.be/v0o1kV-qfVI?si=NGrXPMMc4PEoqBLv) - untuk ukuran media kueri tertentu sangat bagus untuk mengatur layout
 
 **Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
 

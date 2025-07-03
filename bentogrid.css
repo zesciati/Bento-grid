@@ -75,7 +75,7 @@ body {
 .create-post h1 {
   padding-left: 12%;
 }
-
+ /* ANCHOR - five stars desktop design */
 .five-stars {
   grid-column: 2 / span 2;
   background-color: #7651dd;
@@ -226,9 +226,9 @@ body {
   
   .grid-layout{
     width: 100%;
-    max-width: 90%;
+    max-width: 100%;
     grid-template-columns: 1fr;
-    margin: auto;
+    margin-left: auto;
     gap:2rem;
     grid-template-areas:
       "box-1"
@@ -241,9 +241,29 @@ body {
       "box-8";
   }
 
+  .card {
+    width: 82%;
+    /* place-items:center; */
+  }
+
+ /* ANCHOR - five stars mobile design */
   .five-stars{
     grid-area: box-1;
+    height: fit-content;
+
   }
+  .five-stars h1{
+    font-size: 2.5rem;
+    /* width: 60%; */
+    /* white-space: normal; */
+    word-break: break-word;
+    place-self: center;
+  }
+
+  .five-stars h3{
+    font-weight: 1;
+  }
+
   .multiple-platforms{
     grid-area: box-2;
 
