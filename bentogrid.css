@@ -224,7 +224,7 @@ body {
 
 @media (max-width:950px){
   .grid-layout{
-    width: 100%;
+    width: 95%;
     max-width: 100%;
     grid-template-columns: 1fr;
     margin-inline: 2rem;
@@ -243,7 +243,9 @@ body {
   }
 
   .card {
-    width: 92%;
+    width: 95%;
+    /* height: fit-content; */
+    /* height: 120%; */
   }
 
  /* ANCHOR - five stars mobile design */
@@ -273,7 +275,7 @@ body {
   }
   .consistent-schedule{
     grid-area: box-3;
-    
+    /* padding-bottom: 60px; */
   }
   .schedule-posts{
     grid-area: box-4;
@@ -289,11 +291,12 @@ body {
   }
   .create-post{
     grid-area: box-7;
-    height: fit-content;
-
+    padding: 0;
   }
   .ai-content{
     grid-area: box-8;
+    /* height: 50%; */
+    margin: 0;
   }
 
 }
